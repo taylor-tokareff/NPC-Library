@@ -7,9 +7,9 @@ const AddCharacter = () => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <CharacterForm handleOnSubmit={handleOnSubmit} />
-    </React.Fragment>
+    </>
   );
 };
 
